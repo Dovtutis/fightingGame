@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+    <title>Kambat</title>
+    <script type="text/javascript" defer src="js/kambat.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/kambat.css">
+    <script src="https://kit.fontawesome.com/42762d49f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="gameScreen" class="displayFlex flexColumn padding150">
+        <div class="displayFlex justify-space-around">
+            <div class="bigText">
+                VYTAS
+            </div>
+            <div class="w250">
+
+            </div>
+            <div class="bigText marginR50" id="pcName">
+
+            </div>
+        </div>
+        <div class="displayFlex justify-space-around margin20">
+            <div class="" id="playerScreen">
+                <img src="img/vytas.jpg" id="vytasImg">
+            </div>
+            <div>
+                <button id="attackButton">ATTACK!</button>
+            </div>
+            <div class="" id="pcScreen">
+                <img src="https://i.imgur.com/yBh7Fn4.png" id="pcImg">
+            </div>
+        </div>
+        <div class="displayFlex justify-space-around">
+            <div class="">
+                <label for="userHealth" id="hearth"><i class="fas fa-heart"></i></label>
+                <progress id="userHealth" value="100" max="100"></progress>
+                <span id="healCounter"></span>
+            </div>
+            <div class="w250">
+
+            </div>
+            <div class="">
+                <label for="pcHealth" id="hearth"><i class="fas fa-heart"></i></label>
+                <progress id="pcHealth" value="100" max="100"></progress>
+                <span id="pcHealthCounter"></span>
+            </div>
+        </div>
+        <div class="displayFlex margin20">
+            <div class="displayFlex playerInterface marginL100">
+                <div id="coin">
+                    <img src="https://www.florinus.lt/image/auksas/monetos/aukso/rusija/10-rouble/russian-10-ruble-nikolai-ii.jpg" class="weaponImg">
+                    <span id="coinBox"></span>
+                </div>
+                <div>
+                    YOUR WEAPON:
+                </div>
+                <div id="yourWeapon">
+                    <div id="playerWeaponDiv">
+                        <img src="https://i.pinimg.com/originals/13/5d/7b/135d7b8a2ea41db95e1c48703f58c244.jpg" id="playerWeapon"
+                             class="weaponImg">
+                    </div>
+                </div>
+                <div>
+                    SHOP:
+                </div>
+                <div>
+                    <div id="tooltip1">
+                        <img src="https://i.pinimg.com/originals/13/5d/7b/135d7b8a2ea41db95e1c48703f58c244.jpg" class="weaponImg" id="club">
+                        <span id="tooltiptext1">Weapon name: CLUB<br>Damage: 5<br>Effect:
+                        No effect<br>Price:0 (Default Weapon)</span>
+                    </div>
+                </div>
+                <div>
+                    <div id="tooltip1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjeRzenAFh9nuqc0sexfw63azpjKmulkubHg&usqp=CAU" class="weaponImg"
+                             id="sword">
+                        <span id="tooltiptext1">Weapon name: SWORD<br>Damage: 10<br>Effect:
+                        Gives player 25% chance to doge enemy attacks.<br>Price: 75 Coins</span>
+                    </div>
+                </div>
+                <div>
+                    <div id="tooltip1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYLtdkk7fwbEwdjNpuL0Oo1ka5A7z0PhL34Q&usqp=CAU" class="weaponImg"
+                        id="magicWand">
+                        <span id="tooltiptext1">Weapon name: MAGIC WAND<br>Damage: 12<br>Effect:
+                        Heals player on every enemy hit from 0 to 5 hit points.<br>Price: 150 Coins</span>
+                    </div>
+                </div>
+                <div>
+                    <div id="tooltip1">
+                        <img src="https://preview.pixlr.com/images/800wm/100/1/1001468630.jpg" class="weaponImg" id="bow">
+                        <span id="tooltiptext1">Weapon name: BOW<br>Damage: 7<br>Effect:
+                        Gives player 25% chance to doge enemy attacks.<br>Price: 100 Coins</span>
+                    </div>
+                </div>
+            </div>
+            <div class="displayFlex genInterface margin10">
+                <div id="tooltip1">
+                    <img src="https://preview.pixlr.com/images/450nwm/100/1/1001468594.jpg" class="weaponImg" id="healthPotion">
+                    <span id="tooltiptext1">HEALTH POTION<br>Effect:
+                        Recovers player health when bought.<br>Price: 50 Coins</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

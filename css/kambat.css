@@ -1,0 +1,217 @@
+
+.displayFlex {
+    display: flex;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.align-content-end {
+    align-content: end;
+}
+
+.align-self-end {
+    align-self: end;
+}
+
+.justify-self-end {
+    justify-self: end;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex5 {
+    flex: 5;
+}
+
+.fontSize20 {
+    font-size: 20px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w250 {
+    width: 250px;
+}
+
+.margin100zero {
+    margin: 100px 0;
+}
+
+.padding100zero {
+    padding: 100px 0;
+}
+
+.marginRight50 {
+    margin-right: 50px;
+}
+
+.margin20 {
+    margin: 20px;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.marginR50 {
+    margin-right: 50px;
+}
+
+.marginL100 {
+    margin-left: 100px;
+}
+
+.padding150 {
+    padding: 150px;
+}
+
+.bigText {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#gameScreen {
+    width: 1600px;
+    height: 100vh;
+    background-color: #f89292;
+}
+
+#playerScreen {
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #E7B7D8;
+}
+
+#pcScreen {
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #E7B7D8;
+}
+
+#hearth {
+    color: red;
+    font-size: 20px;
+}
+
+#userHealth {
+    width: 250px;
+    background-color: green;
+}
+
+#pcHealth {
+    width: 250px;
+    background-color: red;
+}
+
+#vytasImg {
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#pcImg {
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.playerInterface div {
+    margin: 10px;
+    line-height: 50px;
+}
+
+.genInterface div {
+    margin: 10px;
+}
+
+#attackButton {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #8E8E8E;
+}
+
+.weaponImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.weaponImg:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#coin {
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    color: gold;
+}
+
+/* Tooltip container */
+#tooltip1 {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+/* Tooltip text */
+#tooltip1 #tooltiptext1 {
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+#tooltip1:hover #tooltiptext1 {
+    visibility: visible;
+}
