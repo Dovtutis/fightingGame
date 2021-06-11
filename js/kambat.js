@@ -342,6 +342,7 @@ function randomWeapon () {
 function healing () {
     if (coins >= 50) {
         userHealth.value += 100
+        healCounter.innerHTML = userHealth.value
         coins -= 50
         coin.innerHTML = coins
     } else {
